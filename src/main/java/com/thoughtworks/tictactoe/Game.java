@@ -9,6 +9,7 @@ public class Game {
     }
 
     public void start() {
+        board.initializeSpaces();
         board.draw();
     }
 }
